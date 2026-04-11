@@ -110,19 +110,23 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &none     &none     &none     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         ALLOW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans          &trans          &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &kp UP_ARROW    &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp DOWN_ARROW  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &trans
+&kp ESCAPE      &trans  &trans  &trans  &trans                             &trans  &trans          &trans          &trans          &trans
+&kp TAB         &trans  &trans  &trans  &trans  &trans      &trans         &trans  &trans          &kp UP_ARROW    &trans          &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &tog 0      &trans         &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp DOWN_ARROW  &trans
+&trans          &trans  &trans  &trans  &trans  &trans      &kp BACKSPACE  &trans                                                  &kp ENTER
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         layer_6 {

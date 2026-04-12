@@ -40,10 +40,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R      &kp T                                                 &kp Y                &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D             &kp F      &kp G             &none             &kp MINUS         &kp H                &kp J  &kp K      &kp L    &lt 4 ENTER
-&kp Z             &kp X         &kp C             &kp V      &kp B             &lt 6 ESCAPE      &kp B             &kp N                &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LSHFT  &lt 2 LANGUAGE_2  &kp SPACE         &lt 7 LANGUAGE_1  &lt 7 LC(LG(SPACE))                             &lt 3 ESCAPE
+&kp Q             &kp W         &kp E             &kp R                 &kp T                                            &kp Y                &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D             &kp F                 &kp G        &none             &kp MINUS         &kp H                &kp J  &kp K      &kp L    &lt 4 ENTER
+&kp Z             &kp X         &kp C             &kp V                 &kp B        &lt 6 ESCAPE      &kp B             &kp N                &kp M  &kp COMMA  &kp DOT  &lt 1 SLASH
+&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LSHFT LANGUAGE_2  &lt 2 SPACE  &kp SPACE         &lt 7 LANGUAGE_1  &lt 7 LC(LG(SPACE))                             &lt 3 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -109,10 +109,10 @@
 
         del-enter {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp BACKSPACE
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp ENTER
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RSHFT
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp ESCAPE      &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp BACKSPACE
+&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp ENTER
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RSHFT
+&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };

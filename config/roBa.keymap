@@ -40,7 +40,7 @@
         };
 
         go-func {
-            bindings = <&lt_to_layer_0 6>;
+            bindings = <&lt 6 LANGUAGE_1>;
             key-positions = <39 41>;
         };
 

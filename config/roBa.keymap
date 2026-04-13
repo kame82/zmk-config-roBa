@@ -109,10 +109,10 @@
 
         del-enter {
             bindings = <
-&kp ESCAPE      &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp BACKSPACE
-&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp ENTER
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RSHFT
-&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp ESCAPE      &trans  &trans        &trans  &trans                      &trans  &trans  &trans  &trans  &kp BACKSPACE
+&kp TAB         &trans  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp ENTER
+&kp LEFT_SHIFT  &trans  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RSHFT
+&trans          &trans  &kp LEFT_GUI  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };

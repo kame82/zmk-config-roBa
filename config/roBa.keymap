@@ -70,8 +70,8 @@
         MOUSE {
             bindings = <
 &kp TAB           &trans  &trans        &trans  &trans                      &trans  &trans  &trans    &trans    &trans
-&kp LEFT_CONTROL  &trans  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans
-&kp LEFT_SHIFT    &trans  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3
+&kp LEFT_CONTROL  &trans  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &mkp MB3
+&kp LEFT_SHIFT    &trans  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &mkp MB2  &kp LSHFT
 &kp LEFT_COMMAND  &trans  &kp LEFT_GUI  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
 

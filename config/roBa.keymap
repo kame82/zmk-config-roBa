@@ -60,19 +60,19 @@
 
         NUM {
             bindings = <
-&none             &none   &none   &none           &none                       &none          &none             &none              &kp MINUS  &kp PLUS
-&kp TAB           &none   &none   &none           &none   &none       &none   &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT    &kp GRAVE
-&kp LEFT_SHIFT    &none   &none   &none           &none   &none       &none   &none          &none             &none              &none      &kp BACKSLASH
-&kp LEFT_COMMAND  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans      &trans  &trans                                                         &none
+&kp TAB           &none   &none   &none   &none                       &none          &none             &none              &kp MINUS  &kp PLUS
+&kp LEFT_CONTROL  &none   &none   &none   &none   &none       &none   &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT    &kp GRAVE
+&kp LEFT_SHIFT    &none   &none   &none   &none   &none       &none   &none          &none             &none              &none      &kp BACKSLASH
+&kp LEFT_COMMAND  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                         &none
             >;
         };
 
         MOUSE {
             bindings = <
-&kp TAB           &trans        &trans     &trans  &trans                      &trans  &trans  &trans    &trans    &trans
-&kp LEFT_CONTROL  &trans        &trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans
-&kp LEFT_SHIFT    &trans        &trans     &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3
-&kp LEFT_COMMAND  &kp LEFT_ALT  &kp LCTRL  &trans  &trans  &trans      &trans  &trans                              &trans
+&kp TAB           &trans  &trans        &trans  &trans                      &trans  &trans  &trans    &trans    &trans
+&kp LEFT_CONTROL  &trans  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &trans    &trans    &trans
+&kp LEFT_SHIFT    &trans  &trans        &trans  &trans  &trans      &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3
+&kp LEFT_COMMAND  &trans  &kp LEFT_GUI  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -80,10 +80,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE        &trans  &trans  &trans  &trans                      &trans  &trans          &kp UP_ARROW    &trans           &trans
-&kp TAB           &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans
-&kp LEFT_COMMAND  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &none
+&kp TAB           &trans  &trans        &trans  &trans                      &trans  &trans          &kp UP_ARROW    &trans           &trans
+&kp LEFT_CONTROL  &trans  &trans        &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT    &trans  &trans        &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans
+&kp LEFT_COMMAND  &trans  &kp LEFT_GUI  &trans  &trans  &trans      &trans  &trans                                                   &none
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;

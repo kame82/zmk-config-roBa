@@ -29,12 +29,12 @@
     combos {
         compatible = "zmk,combos";
 
-        go-func {
-            bindings = <&lt 5 LANGUAGE_1>;
+        go_func {
+            bindings = <&lt 5 LANG1>;
             key-positions = <41 40>;
         };
 
-        DELETE-KEY {
+        delete_key {
             bindings = <&kp DELETE>;
             key-positions = <41 22 9>;
         };

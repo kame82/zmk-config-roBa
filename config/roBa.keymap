@@ -33,11 +33,6 @@
             bindings = <&lt 5 LANG1>;
             key-positions = <41 40>;
         };
-
-        delete_key {
-            bindings = <&kp DELETE>;
-            key-positions = <41 22 9>;
-        };
     };
 
     keymap {
@@ -114,10 +109,10 @@
 
         del-enter {
             bindings = <
-&kp ESCAPE        &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp BACKSPACE
-&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp ENTER
-&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp RSHFT
-&trans            &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp ESCAPE        &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &kp DEL  &kp BACKSPACE
+&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans   &kp ENTER
+&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans   &kp RSHFT
+&trans            &trans  &trans  &trans  &trans  &trans      &trans  &trans                           &trans
             >;
         };
     };

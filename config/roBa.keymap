@@ -60,10 +60,10 @@
 
         NUM {
             bindings = <
-&kp EXCL          &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT                      &kp CARET          &kp AMPS          &kp ASTRK          &kp LPAR   &kp RPAR
-&kp LEFT_CONTROL  &none   &none         &none       &none        &none       &none   &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL
-&kp LEFT_SHIFT    &none   &none         &none       &none        &none       &none   &kp COLON          &none             &trans             &trans     &kp BACKSLASH
-&kp LEFT_COMMAND  &trans  &kp LEFT_GUI  &trans      &trans       &trans      &trans  &trans                                                             &none
+&kp EXCL          &kp AT  &kp HASH      &kp DOLLAR  &kp PERCENT                      &kp CARET         &kp AMPS          &kp ASTRK          &kp LPAR   &kp RPAR
+&kp LEFT_CONTROL  &none   &none         &none       &none        &none       &none   &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL
+&kp LEFT_SHIFT    &none   &none         &none       &none        &none       &none   &kp SEMICOLON     &none             &trans             &trans     &kp BACKSLASH
+&kp LEFT_COMMAND  &trans  &kp LEFT_GUI  &trans      &trans       &trans      &trans  &trans                                                            &none
             >;
         };
 

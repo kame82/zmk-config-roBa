@@ -37,7 +37,6 @@
         DELETE-KEY {
             bindings = <&kp DELETE>;
             key-positions = <41 22 9>;
-            layers = <7>;
         };
     };
 
